@@ -1,0 +1,63 @@
+/* Bottom Section Styles */
+button {
+    margin: 0;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+#outer-circle{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(124, 136, 136, 0.6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 10px 2px rgb(187, 176, 176);
+    text-align: center;
+}
+
+#outer-circle button{
+    border: none;
+    cursor: pointer;
+    background-color: rgba(124, 136, 136, 0);
+}
+
+#inner-circle{
+    position: absolute;
+    height: 35%;
+    width: 35%;
+    background-color: rgb(142,157,171);
+    box-shadow: 0px 0px 10px 2px rgb(61, 59, 59);
+    border-radius: 50%;
+}
+
+#inner-circle:hover{
+    background-color: rgb(120, 131, 141);
+}
+
+#menu{
+    position: absolute;
+    top: 10%;
+    left: 37%;
+}
+
+#forward{
+    position: absolute;
+    right: 8%;
+}
+
+#back{
+    position: absolute;
+    left: 8%;
+}
+
+#play-pause{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+}
